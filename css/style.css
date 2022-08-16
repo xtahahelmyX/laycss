@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body{
+  padding-left: 20px;
+}
+#logo{
+  height: 33px;
+  width: 268px;
+}
+header{
+    display: flex;
+    max-width: 1015px;
+    flex-flow: row wrap;
+}
+nav{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+}
+.navi{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-grow: 1;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+li a{
+  display: flex;
+  text-decoration: none;
+  color: grey;
+}
+li a:hover{
+  color: green;
+}
+li{
+  padding-right: 20px;
+}
+.intosec{ 
+  display: flex;
+  flex-flow: row wrap;
+}
