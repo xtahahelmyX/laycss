@@ -3,24 +3,31 @@
   padding: 0;
   box-sizing:border-box;
 }
+
 body{
   padding-left: 20px;
+  font-family: 'Work Sans', sans-serif;
 }
+
+
 #logo{
   height: 33px;
   width: 268px;
 }
+
 header{
     display: flex;
     max-width: 1015px;
     flex-flow: row wrap;
 }
+
 nav{
   display: flex;
   padding: 15px;
   justify-content: space-between;
   align-items: center;
 }
+
 .container{
   display: flex;
   padding: 15px;
@@ -28,6 +35,7 @@ nav{
   align-items: center;
   max-width: 1000px;
 }
+
 .navi{
   display: flex;
   justify-content: flex-end;
@@ -43,13 +51,78 @@ li a{
   text-decoration: none;
   color: grey;
 }
+
 li a:hover{
   color: green;
 }
+
 li{
   padding-right: 20px;
 }
-.intosec{ 
+
+.introsec{ 
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.star{
+margin: 0px 467.5px 0 467.5px;
+}
+
+
+.introsec > h1{
+  font-size: 34px;
+  margin: 34px 0 34px 0;
+  color: #00b39b;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #747474;
+}
+
+.pone{
+  margin: 0 25px 0 25px
+}
+
+.secards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.patients{
+  background-color:#00ccb1;
+  padding: 32px 32px 32px 32px;
+  color: white;
+  margin-right: 25px ;
+}
+.doc{
+  margin-right: 25px;
+  background-color:#00ccb1;
+  padding: 32px 32px 32px 32px;
+  color: white;
+}
+.clinics{
+  margin-right: 25px;
+  background-color:#00ccb1;
+  padding: 32px 32px 32px 32px;
+  color: white;
+}
+i{
+  color: white;
+}
+
+select{
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: white;
+}
+option{
+  color: black;
 }

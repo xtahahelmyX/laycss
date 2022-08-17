@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5327617673.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
   <title>Docplanner Group</title>
@@ -18,15 +20,22 @@
       </ul>
   </nav>
   <section class="introsec">
-    <img src="https://www.docplanner.com/img/sygnet.png" alt="star">
+    <img src="https://www.docplanner.com/img/sygnet.png" class="star" alt="star" width="40px" height="39px">
     <h1>Making the healthcare experience more human</h1>
-    <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
-    <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+    <div class="paragraph">
+    <p class="pone">We want patients to find the perfect doctor and book an <br> appointment in the most easy way. The patient journey should be <br> enjoyable, and that's why we are always next to them: <br> to help them find the best possible care. Anytime, anywhere.</p>
+    <p class="ptwo">We also help doctors to better manage their practice and build their <br> online reputation. With our integrated end-to-end solution, doctors <br> are able not only to improve their online presence, <br> but also to devote their time to what really matters: their patients.</p>
+  </div>
   </section>
   <section class="secards">
-    <div class="patients"> <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="symbol">
+    <div class="patients">
+    <i class="fa-solid fa-user-group"></i>
       <h1>For patients</h1>
-      <p>Find a doctor, book a visit and solve any health-related doubt</p>
+      <p>Find a doctor, book a <br>
+         visit and solve any <br>
+          health-related doubt</p>
+          <br>
+          <br>
     <select id="countrypick">
       <option value="">choose a country</option>
         <option value="Egypt">Egypt</option>
@@ -34,10 +43,14 @@
         <option value="Germany">Germany</option>
         <option value="Spain">Spain</option>
     </select>
+  </div>
     </div>
-    <div class="doc"> <img src="" alt="symbol">
+    <div class="doc"> 
+      <i class="fa-solid fa-user"></i>
       <h1>For doctors</h1>
-      <p>Save time managing visits and cut no-shows by half</p>
+      <p>Save time managing <br> visits and cut no <br> -shows by half</p>
+      <br>
+      <br>
     <select name="" id="">
       <option value="">choose a country</option>
       <option value="UAE">UAE</option>
@@ -47,9 +60,11 @@
     </select>
     </div>
     <div class="clinics"> 
-      <img src="" alt="symbol">
+      <i class="fa-solid fa-building"></i>
       <h1>For Clinics</h1>
-      <p>Deliver an exceptional patient experience in your clinic</p>
+      <p>Deliver an exceptional <br> patient experience in <br> your clinic</p>
+      <br>
+      <br>
     <select name="" id="twotwenty">
         <option value="">2 to 20 speciaalists</option>
         <option value="netherland">netherland</option>
@@ -57,6 +72,7 @@
         <option value="newzeland">newzeland</option>
         <option value="sweden">sweden</option>
     </select>
+    <br>
     <select name="" id="twenties">
         <option value="">More than 20 speciaalists</option>
         <option value="Hungary">Hungary</option>
@@ -65,7 +81,7 @@
     </select>
     </div>
   </section>
-  <div class="companies">
+  <section class="companies">
       <h1>We are a global company
         with local culture
       </h1>
@@ -78,7 +94,7 @@
       <a href=""><img src="https://www.docplanner.com/img/sygnet@2x.png" width="50px" height="50px" alt="">Gipo</a>
       <a href=""><img src="https://www.docplanner.com/img/sygnet@2x.png" width="50px" height="50px" alt="">ClincCLOUD</a>
       <a href=""><img src="https://www.docplanner.com/img/sygnet@2x.png" width="50px" height="50px" alt="">Jameda</a>
-  </div>
+  </section>
   <article class="my world">
     <h1>The world's biggest
       healthcare platform
@@ -156,9 +172,29 @@
     </div>
   </figure>
   <footer class="">
+    <h1> 
+      Sounds interesting? Join us now!
+    </h1>
+    <button>
+       See all current openings
+    </button>
   </footer>
   <footer>
-
+     <p>We are leaders in 13 countries: <a href="">Poland</a> <a href="">Turkey,</a> <a href="">Spain,</a>
+       <a href="">Italy,</a>
+        <a href="">Germany,</a>
+        <a href="">Czech Republic,</a>
+         <a href="">Portugal,</a>
+          <a href="">Mexico,</a> 
+           <a href="">Colombia,</a>
+            <a href="">Brazil,</a> 
+            <a href="">Argentina,</a> 
+             <a href="">Peru</a>  
+               and <a href="">chile</a>
+    </p>
+    <p>
+      This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser. www.docplanner.com © 2022
+    </p>
   </footer>
 </body>
 </html>
