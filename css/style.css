@@ -3,31 +3,25 @@
   padding: 0;
   box-sizing:border-box;
 }
-
 body{
   padding-left: 20px;
   font-family: 'Work Sans', sans-serif;
 }
-
-
 #logo{
   height: 33px;
   width: 268px;
 }
-
 header{
     display: flex;
     max-width: 1015px;
     flex-flow: row wrap;
 }
-
 nav{
   display: flex;
   padding: 15px;
   justify-content: space-between;
   align-items: center;
 }
-
 .container{
   display: flex;
   padding: 15px;
@@ -35,7 +29,6 @@ nav{
   align-items: center;
   max-width: 1000px;
 }
-
 .navi{
   display: flex;
   justify-content: flex-end;
@@ -45,39 +38,31 @@ nav{
   list-style-type: none;
   margin-top: 10px;
 }
-
 li a{
   display: flex;
   text-decoration: none;
   color: grey;
 }
-
 li a:hover{
   color: green;
 }
-
 li{
   padding-right: 20px;
 }
-
 .introsec{ 
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 25px;
 }
-
 .star{
 margin: 0px 467.5px 0 467.5px;
 }
-
-
 .introsec > h1{
   font-size: 34px;
   margin: 34px 0 34px 0;
   color: #00b39b;
 }
-
 .paragraph{
   display: flex;
   justify-content: space-around;
@@ -85,15 +70,30 @@ margin: 0px 467.5px 0 467.5px;
   font-family: 'Roboto', sans-serif;
   color: #747474;
 }
-
 .pone{
   margin: 0 25px 0 25px
 }
-
 .secards{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.secards h1{
+  display: flex;
+  align-items: baseline;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 7.5px 0 7.5px 0;
+}
+.secards p{
+  font-size: 24px;
+}
+.patients, .doc, .clinics {
+  border-radius: 10px;
+  padding: 32px 32px 0 32px;
+  height: 350px;
+  width: 320px;
 }
 .patients{
   background-color:#00ccb1;
@@ -103,26 +103,52 @@ margin: 0px 467.5px 0 467.5px;
 }
 .doc{
   margin-right: 25px;
-  background-color:#00ccb1;
+  background-color:#3d83df;
   padding: 32px 32px 32px 32px;
   color: white;
 }
 .clinics{
   margin-right: 25px;
-  background-color:#00ccb1;
+  background-color:#1b2734;
   padding: 32px 32px 32px 32px;
   color: white;
 }
 i{
   color: white;
 }
-
 select{
+  display: flex;
+  align-items: baseline;
   background: none;
   border: none;
   text-decoration: underline;
   color: white;
+  font-size: 19.2px;
+  font-family: 'Roboto', sans-serif; ;
+  font-weight: bold;
 }
 option{
   color: black;
+}
+.companies{
+  display: flex;
+  justify-content: center;
+  padding: 25px 0 25px 0;
+}
+.companies h1{
+ display: flex;
+ font-size: 26px;
+ margin-right: 250px;
+ margin-left: 110px;
+}
+.companyonendtwo{
+  display: flexbox;
+  flex-grow: 1;
+}
+.companyone{
+  display: flexbox;
+  justify-content: flex-end;
+}
+.companytwo{
+  display: flex;
 }
